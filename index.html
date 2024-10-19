@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Monitoring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 1em;
+            color: white;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        .dashboard {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .dashboard div {
+            background: white;
+            padding: 20px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .chart-container {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .faq, .research {
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#map">Map</a>
+        <a href="#graph">Graph</a>
+        <a href="#faq">FAQ</a>
+        <a href="#research">Research Papers</a>
+    </nav>
+
+    <div class="container">
+        <h1>Water Quality Monitoring System</h1>
+
+        <!-- Dashboard -->
+        <div id="dashboard" class="dashboard">
+            <div>
+                <h3>Average pH Level</h3>
+                <p id="avgPh">Loading...</p>
+            </div>
+            <div>
+                <h3>Average Temperature (°C)</h3>
+                <p id="avgTemp">Loading...</p>
+            </div>
+            <div>
+                <h3>Average Turbidity</h3>
+                <p id="avgTurbidity">Loading...</p>
+            </div>
+        </div>
+
+        <!-- Map Integration -->
+        <div id="map"></div>
+
+        <!-- Chart for Graphs -->
+        <div id="graph" class="chart-container">
+            <canvas id="myChart" width="1000" height="400"></canvas>
+        </div>
+
+        <!-- State-wise Data Table -->
+        <table id="stateDataTable">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>pH</th>
+                    <th>Temperature (°C)</th>
+                    <th>Turbidity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically generated here -->
+            </tbody>
+        </table>
+
+        <!-- FAQ Section -->
+        <div id="faq" class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <p><strong>Q1:</strong> What is water turbidity?</p>
+            <p><strong>A:</strong> Turbidity is the cloudiness or haziness of water caused by particles.</p>
+            <p><strong>Q2:</strong> Why is pH level important in water?</p>
+            <p><strong>A:</strong> pH levels indicate how acidic or basic water is, affecting its safety for consumption.</p>
+        </div>
+
+        <!-- Research Papers and Videos -->
+        <div id="research" class="research">
+            <h2>Research Papers and Videos</h2>
+            <p><strong>Video:</strong> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">How Water pH Affects Health</a></p>
+            <p><strong>Research Paper:</strong> <a href="https://example.com/research.pdf">Water Quality and Public Health</a></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Data Sample
+        const data = [
+            { state: "California", city: "Los Angeles", pH: 7.5, temperature: 18, turbidity: 3 },
+            { state: "Texas", city: "Austin", pH: 6.9, temperature: 22, turbidity: 1 },
+            { state: "New York", city: "New York City", pH: 7.0, temperature: 20, turbidity: 4 },
+            // Add more data as needed
+        ];
+
+        // Function to calculate averages
+        function calculateAverages() {
+            let totalPh = 0, totalTemp = 0, totalTurbidity = 0, count = data.length;
+
+            data.forEach(item => {
+                totalPh += item.pH;
+                totalTemp += item.temperature;
+                totalTurbidity += item.turbidity;
+            });
+
+            document.getElementById('avgPh').innerText = (totalPh / count).toFixed(2);
+            document.getElementById('avgTemp').innerText = (totalTemp / count).toFixed(2);
+            document.getElementById('avgTurbidity').innerText = (totalTurbidity / count).toFixed(2);
+        }
+
+        // Function to render graph
+        function renderGraph() {
+            const ctx = document.getElementById('myChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.map(item => item.city),
+                    datasets: [{
+                        label: 'pH Level',
+                        data: data.map(item => item.pH),
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 2,
+                        fill: true // Fill under the line
+                    }, {
+                        label: 'Temperature (°C)',
+                        data: data.map(item => item.temperature),
+                        backgroundColor: 'rgba(255, 206, 86, 0.6)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        borderWidth: 2,
+                        fill: true // Fill under the line
+                    }, {
+                        label: 'Turbidity',
+                        data: data.map(item => item.turbidity),
+                        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 2,
+                        fill: true // Fill under the line
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Measurement'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Cities'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                        }
+                    }
+                }
+            });
+        }
+
+        // Function to render map
+        function initMap() {
+            const mapOptions = {
+                center: { lat: 37.7749, lng: -122.4194 },
+                zoom: 5
+            };
+            const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+
+        // Function to render state data table
+        function renderDataTable() {
+            const tbody = document.getElementById('stateDataTable').getElementsByTagName('tbody')[0];
+            data.forEach(item => {
+                const row = tbody.insertRow();
+                row.insertCell(0).innerText = item.state;
+                row.insertCell(1).innerText = item.city;
+                row.insertCell(2).innerText = item.pH;
+                row.insertCell(3).innerText = item.temperature;
+                row.insertCell(4).innerText = item.turbidity;
+            });
+        }
+
+        // Initializing the page
+        window.onload = function() {
+            calculateAverages();
+            renderGraph();
+            renderDataTable();
+        };
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
