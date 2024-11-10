@@ -1,0 +1,1988 @@
+{
+    "averages": {
+        "Bihar": {
+            "averageTurbidity": 3.701927393,
+            "averageTemperature": 7.466666666666666,
+            "averagePh": 22.833333333333332
+        },
+        "Assam": {
+            "averageTurbidity": 3.889700595736842,
+            "averageTemperature": 7.078947368421052,
+            "averagePh": 25.68421052631579
+        },
+        "Gujarat": {
+            "averageTurbidity": 3.737369516833334,
+            "averageTemperature": 7.233333333333333,
+            "averagePh": 26.166666666666668
+        },
+        "Telangana": {
+            "averageTurbidity": 3.8703262551904762,
+            "averageTemperature": 7.033333333333334,
+            "averagePh": 27.22222222222222
+        },
+        "Andhra Pradesh": {
+            "averageTurbidity": 3.8450442767,
+            "averageTemperature": 7.08,
+            "averagePh": 26.45
+        },
+        "Madhya Pradesh": {
+            "averageTurbidity": 3.6283079426666665,
+            "averageTemperature": 7.266666666666667,
+            "averagePh": 24.233333333333334
+        },
+        "Tamil Nadu": {
+            "averageTurbidity": 3.811369948142857,
+            "averageTemperature": 6.657142857142857,
+            "averagePh": 28.857142857142858
+        },
+        "Meghalaya": {
+            "averageTurbidity": 3.9241081083333333,
+            "averageTemperature": 7.033333333333334,
+            "averagePh": 19.666666666666668
+        },
+        "Punjab": {
+            "averageTurbidity": 4.258488737,
+            "averageTemperature": 7.6,
+            "averagePh": 22
+        },
+        "Rajasthan": {
+            "averageTurbidity": 4.3769737153333335,
+            "averageTemperature": 7.666666666666667,
+            "averagePh": 24.666666666666668
+        },
+        "Chhattisgarh": {
+            "averageTurbidity": 4.280277599333333,
+            "averageTemperature": 7.099999999999999,
+            "averagePh": 26.666666666666668
+        },
+        "Tripura": {
+            "averageTurbidity": 3.9783535371999994,
+            "averageTemperature": 6.95,
+            "averagePh": 23.775
+        },
+        "Uttar Pradesh": {
+            "averageTurbidity": 3.549076595,
+            "averageTemperature": 7.35,
+            "averagePh": 20.3
+        },
+        "Jharkhand": {
+            "averageTurbidity": 4.888275799833333,
+            "averageTemperature": 7.516666666666667,
+            "averagePh": 23.708333333333332
+        },
+        "Haryana": {
+            "averageTurbidity": 2.277358632,
+            "averageTemperature": 7,
+            "averagePh": 26.2
+        },
+        "Uttarakhand": {
+            "averageTurbidity": 3.762945659333333,
+            "averageTemperature": 7.2,
+            "averagePh": 16
+        },
+        "Karnataka": {
+            "averageTurbidity": 4.11199443548,
+            "averageTemperature": 6.769333333333333,
+            "averagePh": 24.941999999999997
+        },
+        "Mizoram": {
+            "averageTurbidity": 3.6225586775,
+            "averageTemperature": 6.7,
+            "averagePh": 19.5
+        },
+        "Goa": {
+            "averageTurbidity": 3.9517410806,
+            "averageTemperature": 6.340000000000001,
+            "averagePh": 29.45
+        },
+        "Odisha": {
+            "averageTurbidity": 3.6960826755555556,
+            "averageTemperature": 7.044444444444444,
+            "averagePh": 27.166666666666668
+        },
+        "West Bengal": {
+            "averageTurbidity": 4.027706474166666,
+            "averageTemperature": 7.133333333333333,
+            "averagePh": 24.5
+        },
+        "Manipur": {
+            "averageTurbidity": 4.3316796250000005,
+            "averageTemperature": 7,
+            "averagePh": 23.98125
+        },
+        "Nagaland": {
+            "averageTurbidity": 4.738396315999999,
+            "averageTemperature": 4.25,
+            "averagePh": 28.325
+        },
+        "Kerala": {
+            "averageTurbidity": 3.6974945095384615,
+            "averageTemperature": 6.476923076923078,
+            "averagePh": 26.46153846153846
+        }
+    },
+    "locations": [
+        {
+            "turbidity": 3.009289196,
+            "temperature": 7.2,
+            "ph": 27,
+            "location": "NAUPADA SWAMPS",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 4.599573327,
+            "temperature": 7,
+            "ph": 30,
+            "location": "\"DALONI BEEL NEAR JOGIGHOPA, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.914883756,
+            "temperature": 7.6,
+            "ph": 22,
+            "location": "\"SIKANDRAPUR, MUZAFFARPUR\"",
+            "state": "Bihar"
+        },
+        {
+            "turbidity": 4.764193594,
+            "temperature": 7.1,
+            "ph": 28,
+            "location": "ORE MINES, DALLI RAJHARA)\"",
+            "state": "Chhattisgarh"
+        },
+        {
+            "turbidity": 2.678910713,
+            "temperature": 6.7,
+            "ph": 30.25,
+            "location": "SANGUEM, GOA\"",
+            "state": "Goa"
+        },
+        {
+            "turbidity": 2.460464867,
+            "temperature": 7.2,
+            "ph": 26,
+            "location": "NARSIMEHTA TALAV- JUNAGADH",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 4.575578405,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "DUMKA\"",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 4.267952934,
+            "temperature": 6.8,
+            "ph": 25,
+            "location": "KUNDALAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.223080865,
+            "temperature": 6.2,
+            "ph": 21.5,
+            "location": "\"PARAVUR, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.407349428,
+            "temperature": 7.4,
+            "ph": 25.5,
+            "location": "UPPER LAKE AT BAIRAGARH CLUB",
+            "state": "Madhya Pradesh"
+        },
+        {
+            "turbidity": 4.713192605,
+            "temperature": 7,
+            "ph": 24,
+            "location": "HIRANMEI PUKHURI AT THOUBAL",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 3.81878876,
+            "temperature": 7,
+            "ph": 20,
+            "location": "WARD'S LAKE AT SHILLONG",
+            "state": "Meghalaya"
+        },
+        {
+            "turbidity": 4.306581068,
+            "temperature": 6.7,
+            "ph": 19.5,
+            "location": "\"PHE RESERVOIR, HELIPAD, NEW SAIHA\"",
+            "state": "Mizoram"
+        },
+        {
+            "turbidity": 4.572923004,
+            "temperature": 6.5,
+            "ph": 26.65,
+            "location": "\"BANGLA FISHERY, DIMAPUR\"",
+            "state": "Nagaland"
+        },
+        {
+            "turbidity": 2.799883321,
+            "temperature": 6.9,
+            "ph": 26,
+            "location": "ANSHUPA LAKE KADALIBARI",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 4.258488737,
+            "temperature": 7.6,
+            "ph": 22,
+            "location": "PUNJAB\"",
+            "state": "Punjab"
+        },
+        {
+            "turbidity": 3.227940799,
+            "temperature": 7.2,
+            "ph": 29,
+            "location": "\"JAISAMAND LAKE, ALWAR, RAJASTHAN\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 2.998335472,
+            "temperature": 6.8,
+            "ph": 32,
+            "location": "PANCHAYAT UN\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 3.991564248,
+            "temperature": 7.1,
+            "ph": 33.5,
+            "location": "\"TIRUMALAGIRI TANK, TIRUMALAGIRI, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.674040012,
+            "temperature": 7,
+            "ph": 23.5,
+            "location": "RUDRASAGAR WEST LAKE TRIPURA",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.425065096,
+            "temperature": 7.5,
+            "ph": 20.6,
+            "location": "\"MAAHIL POND, URAI TEHSIL, JALAUN\"",
+            "state": "Uttar Pradesh"
+        },
+        {
+            "turbidity": 5.600458571,
+            "temperature": 7.2,
+            "ph": 17,
+            "location": "BHEEMTAL LAKE",
+            "state": "Uttarakhand"
+        },
+        {
+            "turbidity": 4.068688909,
+            "temperature": 7.5,
+            "ph": 28.25,
+            "location": "TARAKESHWAR, HOOGHLY\"",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 3.819985377,
+            "temperature": 7,
+            "ph": 25,
+            "location": "PARASHALI BEEL AT DEMORIA",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.494544339,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "ANEKAL DODDAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.030823583,
+            "temperature": 7.6,
+            "ph": 22,
+            "location": "\"SIKANDRAPUR, MUZAFFARPUR\"",
+            "state": "Bihar"
+        },
+        {
+            "turbidity": 3.732170265,
+            "temperature": 7,
+            "ph": 23.25,
+            "location": "\"DHAMBUR LAKE, DHALAI\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.344284854,
+            "temperature": 7.2,
+            "ph": 30.5,
+            "location": "NEKNAMPUR LAKE",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.710053126,
+            "temperature": 6.8,
+            "ph": 23.5,
+            "location": "POND AT LALAMBUNG",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 4.616641008,
+            "temperature": 6.2,
+            "ph": 25,
+            "location": "MADAVARA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.978820188,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "GUBBALAL KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.315898406,
+            "temperature": 7.6,
+            "ph": 27,
+            "location": "KONDAGGIKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.80879301,
+            "temperature": 6.3,
+            "ph": 25,
+            "location": "DYAVASANDRA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.54810035,
+            "temperature": 7,
+            "ph": 28,
+            "location": "\"CHINNA BANDAM, SURARAM, QUTUBULLAPUR, MEDCHAL \u0096 MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.486402627,
+            "temperature": 6.5,
+            "ph": 25.5,
+            "location": "DODDAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.460998376,
+            "temperature": 7.1,
+            "ph": 28,
+            "location": "QUTHUBULLAPUR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.47201817,
+            "temperature": 7.1,
+            "ph": 19,
+            "location": "UMIAM LAKE AT MIDDLE POINT",
+            "state": "Meghalaya"
+        },
+        {
+            "turbidity": 3.533243425,
+            "temperature": 7.2,
+            "ph": 29.5,
+            "location": "WARANGAL\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.470812079,
+            "temperature": 6.7,
+            "ph": 26,
+            "location": "\"SUNNAM KUNTA, JUBILLE HILLS\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.413974183,
+            "temperature": 6.5,
+            "ph": 24.5,
+            "location": "SADRAMANGALA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.224675518,
+            "temperature": 6.9,
+            "ph": 30,
+            "location": "\"NAGOLE CHERUVU, UPPAL (V)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.53747584,
+            "temperature": 7,
+            "ph": 31.5,
+            "location": "DOWLA\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.035822844,
+            "temperature": 6.4,
+            "ph": 29,
+            "location": "RAIA LAKE",
+            "state": "Goa"
+        },
+        {
+            "turbidity": 3.048565866,
+            "temperature": 7.3,
+            "ph": 24,
+            "location": "POND AT NGAIRANGBAM",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 3.793317686,
+            "temperature": 7.1,
+            "ph": 26.5,
+            "location": "DALI TANK",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 3.912148351,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "YELAHANKA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.44817057,
+            "temperature": 7.1,
+            "ph": 28.5,
+            "location": "MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.891018879,
+            "temperature": 7.7,
+            "ph": 24.5,
+            "location": "SUDANAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.515672079,
+            "temperature": 7.1,
+            "ph": 29.5,
+            "location": "\"PATHULGUDA LAKE, PATHALGUDA, UPPAL, MEDCHAL - MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.500207625,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "VEERAPURA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.528522696,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "PARAPPANA AGRAHARA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.227609397,
+            "temperature": 7.3,
+            "ph": 23.5,
+            "location": "INORKATTE KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.886882386,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "\"GOVERDHAN SAGAR, UDAIPUR\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 3.633373289,
+            "temperature": 6,
+            "ph": 25,
+            "location": "\"YERCAUD LAKE, SALEM, TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 3.675717673,
+            "temperature": 6.9,
+            "ph": 30,
+            "location": "(NEW MANDAL)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.16007484,
+            "temperature": 7.2,
+            "ph": 24.5,
+            "location": "MOTI JHEEL AT MOTIHARII",
+            "state": "Bihar"
+        },
+        {
+            "turbidity": 4.58431918,
+            "temperature": 6.9,
+            "ph": 24.5,
+            "location": "NINGTHEM PUKHURI",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 3.485535976,
+            "temperature": 6.1,
+            "ph": 24,
+            "location": "TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 5.112376365,
+            "temperature": 7,
+            "ph": 22.5,
+            "location": "\"KAJIPALLY TANK, KAJIPALLY, MEDAK\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.26640974,
+            "temperature": 7.7,
+            "ph": 24.5,
+            "location": "SUDANAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.48126124,
+            "temperature": 6.8,
+            "ph": 24,
+            "location": "\"PEDDA CHERUVU, GANGARAM (V) SERLINGAMPALLY (NEW MANDAL)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.747312999,
+            "temperature": 6.7,
+            "ph": 23.5,
+            "location": "(MADEENAGUDA)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.663869576,
+            "temperature": 7,
+            "ph": 23.5,
+            "location": "\"BISHNU PUSKAR PUKHURI OF HAYAGRIB MADHAB TEMPLE, HAJO, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 2.804525051,
+            "temperature": 6.9,
+            "ph": 23.5,
+            "location": "\"RUDRASAGAR NORTH LAKE,TRIPURA\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 4.545340927,
+            "temperature": 7,
+            "ph": 24,
+            "location": "SANCTUARY, DHEMAJI\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.021381555,
+            "temperature": 6.3,
+            "ph": 29,
+            "location": "\"VEMBANAD LAKE,KOCHI (OIL TANKER JETTY), KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.265854137,
+            "temperature": 7.4,
+            "ph": 24.5,
+            "location": "PEREMINAHALLI KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.403250065,
+            "temperature": 6.4,
+            "ph": 24.5,
+            "location": "\"CAMPUS LAKE, ICRISAT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.762615331,
+            "temperature": 6.8,
+            "ph": 27,
+            "location": "P .S. CHINNAIAH PALEM",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 3.630536578,
+            "temperature": 6.8,
+            "ph": 27,
+            "location": "\"RAJMAW PUKHURI, JORHAT, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.317553512,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "KODI SINGASANDRA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.116347641,
+            "temperature": 7.7,
+            "ph": 24,
+            "location": "PUBLIC WATER SUPPLY, TINSUKIA\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.025643696,
+            "temperature": 7.3,
+            "ph": 28.5,
+            "location": "MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.408513182,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "MADHURE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.184441995,
+            "temperature": 7,
+            "ph": 27,
+            "location": "SAHEBBANDH AT PURULIA",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 4.850433708,
+            "temperature": 7,
+            "ph": 27,
+            "location": "UPPALANKA MUDFLATS",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 3.285371835,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "LALBAGH TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.214484016,
+            "temperature": 7,
+            "ph": 24,
+            "location": "PUMLEN LAKE AT TOKPACHING",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 4.559336642,
+            "temperature": 7.6,
+            "ph": 24.5,
+            "location": "\"SHIV GANGA POND, DEOGHAR\"",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 2.637364885,
+            "temperature": 7.7,
+            "ph": 24.5,
+            "location": "SUDANAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.895572062,
+            "temperature": 7,
+            "ph": 24.5,
+            "location": "\"KALYANSAGAR AT MATARBARI, SOUTH TRIPURA\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 4.667770161,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "CHELEKERE LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.91175139,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "MANCHANABALE DAM",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.764633881,
+            "temperature": 7.4,
+            "ph": 29.5,
+            "location": "OF PURI CITY)\"",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 4.1190873,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "LALBAGH TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.995857049,
+            "temperature": 6.1,
+            "ph": 29.5,
+            "location": "RUMDER LAKE",
+            "state": "Goa"
+        },
+        {
+            "turbidity": 4.104834817,
+            "temperature": 6.4,
+            "ph": 25,
+            "location": "BEGUR TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.442711502,
+            "temperature": 6.9,
+            "ph": 24.5,
+            "location": "MBB COLLEGE LAKE",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 5.337987102,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "KALENA AGRAHARA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.564901543,
+            "temperature": 6.8,
+            "ph": 25.5,
+            "location": "\"SANAVALLI DAM, MUNGOD\"",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.498818336,
+            "temperature": 7.5,
+            "ph": 19.75,
+            "location": "TOP CHANCHI LAKE",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 3.875556805,
+            "temperature": 6.9,
+            "ph": 29.5,
+            "location": "\"ALAPPUZHA, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.275724959,
+            "temperature": 7.2,
+            "ph": 23.6,
+            "location": "MOTI TALAB AT BALAGHAT",
+            "state": "Madhya Pradesh"
+        },
+        {
+            "turbidity": 4.279697428,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "DODDANAKUNDI TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.896625908,
+            "temperature": 7.1,
+            "ph": 28,
+            "location": "\"BANDAM CHERUVU, HANAMKONDA\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.88950004,
+            "temperature": 7,
+            "ph": 29.5,
+            "location": "\"KOMATI CHERUVU, SIDDIPET TOWN, SIDIPET DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.709374128,
+            "temperature": 7,
+            "ph": 24.5,
+            "location": "\"CHINNA PEDDA CHERUVU, GOPANPALLY, SERILINGAMPALLY, RR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.115428052,
+            "temperature": 6.1,
+            "ph": 24,
+            "location": "TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 4.397533101,
+            "temperature": 7.3,
+            "ph": 31,
+            "location": "\"PEDDA CHERUVU - KHAJA GUDA, KHJAGUDA (V), SERLINGAMPALLY 9NEW MANDAL)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.580829963,
+            "temperature": 6.9,
+            "ph": 23.5,
+            "location": "\"RUDRASAGAR NORTH LAKE,TRIPURA\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.601735481,
+            "temperature": 7.5,
+            "ph": 26.5,
+            "location": "HUNDIKERE (KOPPAL) TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.665521764,
+            "temperature": 7.1,
+            "ph": 26,
+            "location": "\"NEHRU NAGAR TALAB, BHILAI, CHHATISGARH.\"",
+            "state": "Chhattisgarh"
+        },
+        {
+            "turbidity": 4.084696775,
+            "temperature": 6.4,
+            "ph": 27,
+            "location": "RSVR AT EDAMALAYAR",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 2.506238127,
+            "temperature": 7,
+            "ph": 23.5,
+            "location": "\"BISHNU PUSKAR PUKHURI OF HAYAGRIB MADHAB TEMPLE, HAJO, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.785637378,
+            "temperature": 7.1,
+            "ph": 33.5,
+            "location": "\"TIRUMALAGIRI TANK, TIRUMALAGIRI, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.162729749,
+            "temperature": 6.9,
+            "ph": 30,
+            "location": "(NEW MANDAL)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.174568876,
+            "temperature": 7.2,
+            "ph": 26,
+            "location": "\"RANGADHAMUNI CHERUVU, RANGA REDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.385508444,
+            "temperature": 7,
+            "ph": 26,
+            "location": "MALLAPUR TANK",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.38629429,
+            "temperature": 7.2,
+            "ph": 30.5,
+            "location": "NEKNAMPUR LAKE",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.636364183,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "PATTANDUR AGARAHARA",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.159001749,
+            "temperature": 7.2,
+            "ph": 26.5,
+            "location": "\"HAMISAR TALAV, BHUJ\"",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 4.117287902,
+            "temperature": 6.7,
+            "ph": 25,
+            "location": "KAMMASANDRA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.567180517,
+            "temperature": 7.3,
+            "ph": 25.5,
+            "location": "INTERU SWAMPS",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 4.764412042,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "LALBAGH TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.42376733,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "DUMKA\"",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 2.391540006,
+            "temperature": 7.1,
+            "ph": 25.5,
+            "location": "\"HASMATHPET LAKE, HASMATHPET, RANGA REDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.39500211,
+            "temperature": 7.6,
+            "ph": 29.5,
+            "location": "INDRADYUMNA TANK ( RILIGIOUS POND OF PURI CITY)",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 5.102516757,
+            "temperature": 6.7,
+            "ph": 25,
+            "location": "KASAVANAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.30829418,
+            "temperature": 7.2,
+            "ph": 15.5,
+            "location": "INTAKE POINT)\"",
+            "state": "Uttarakhand"
+        },
+        {
+            "turbidity": 3.507708536,
+            "temperature": 7,
+            "ph": 30.5,
+            "location": "\"MULLAKATWA CHERUVU, JI TECH CITY, MADHAPUR,\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.957822241,
+            "temperature": 7.5,
+            "ph": 25.5,
+            "location": "EDULABAD, RANGAREDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.846359372,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "DUMKA\"",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 3.227940799,
+            "temperature": 7,
+            "ph": 26.5,
+            "location": "PADMANABHA SWAMY TEMPLE (TVPM)\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.548775589,
+            "temperature": 6.7,
+            "ph": 31.5,
+            "location": "CHERUVU\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.351766903,
+            "temperature": 7.2,
+            "ph": 26.5,
+            "location": "CALCUTTA, WEST BENGAL\"",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 3.920287688,
+            "temperature": 7.7,
+            "ph": 24,
+            "location": "JOLADAKATTE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.168031026,
+            "temperature": 7.5,
+            "ph": 25.5,
+            "location": "EDULABAD, RANGAREDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.957419783,
+            "temperature": 7.2,
+            "ph": 29,
+            "location": "\"CHINNARAYAN CHERUVU, ALWAL (V)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.049463526,
+            "temperature": 6.5,
+            "ph": 25.05,
+            "location": "KOWDHENAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.994556136,
+            "temperature": 6.2,
+            "ph": 21.5,
+            "location": "\"PARAVUR, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 4.291001305,
+            "temperature": 6.4,
+            "ph": 25,
+            "location": "GOTTIGERE LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.268324836,
+            "temperature": 7,
+            "ph": 25.5,
+            "location": "DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.929177544,
+            "temperature": 6.8,
+            "ph": 27,
+            "location": "P .S. CHINNAIAH PALEM",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 3.481517395,
+            "temperature": 7,
+            "ph": 20,
+            "location": "WARD'S LAKE AT SHILLONG",
+            "state": "Meghalaya"
+        },
+        {
+            "turbidity": 2.966945651,
+            "temperature": 7.1,
+            "ph": 23.5,
+            "location": "DALAVAI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.439021651,
+            "temperature": 7.2,
+            "ph": 25,
+            "location": "SOMASILA BACK WATER",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 4.543685406,
+            "temperature": 8,
+            "ph": 27,
+            "location": "KUNDUVADAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.96599397,
+            "temperature": 6.9,
+            "ph": 26.5,
+            "location": "\"KUDI KUNTA (GAUTAMI LAKE), KONDAPUR, SERILINGAMPALLY, RR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.878515631,
+            "temperature": 7.5,
+            "ph": 28.25,
+            "location": "TARAKESHWAR, HOOGHLY\"",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 4.372333382,
+            "temperature": 7.3,
+            "ph": 25.5,
+            "location": "INTERU SWAMPS",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 3.56139783,
+            "temperature": 7.2,
+            "ph": 26.5,
+            "location": "\"HAMISAR TALAV, BHUJ\"",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 5.140207743,
+            "temperature": 6.5,
+            "ph": 25.05,
+            "location": "HOSAKEREHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.039018779,
+            "temperature": 6.5,
+            "ph": 24.5,
+            "location": "VENGAIHNAKERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.761633184,
+            "temperature": 6.8,
+            "ph": 24.5,
+            "location": "(V & M) SANGAREDDY DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.938536287,
+            "temperature": 6.7,
+            "ph": 19.5,
+            "location": "\"PHE RESERVOIR, HELIPAD, NEW SAIHA\"",
+            "state": "Mizoram"
+        },
+        {
+            "turbidity": 3.730369857,
+            "temperature": 7,
+            "ph": 27,
+            "location": "YENNEHOLE LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.672975983,
+            "temperature": 7.2,
+            "ph": 26.5,
+            "location": "\"HAMISAR TALAV, BHUJ\"",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 3.772919265,
+            "temperature": 6.8,
+            "ph": 24.5,
+            "location": "NARINJA LAKE",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.042496818,
+            "temperature": 7.7,
+            "ph": 24,
+            "location": "PUBLIC WATER SUPPLY, TINSUKIA\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.808372006,
+            "temperature": 6.7,
+            "ph": 23.5,
+            "location": "(MADEENAGUDA)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.358284405,
+            "temperature": 6.9,
+            "ph": 25,
+            "location": "PUTTENAHALLI LAKE (S)",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.741944305,
+            "temperature": 7.2,
+            "ph": 25.5,
+            "location": "\"YERRA KUNTA, SHAIKPET, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.860083952,
+            "temperature": 7,
+            "ph": 33,
+            "location": "\"POONDI LAKE AT THIRUVALLUR, TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 4.123621736,
+            "temperature": 7.1,
+            "ph": 23,
+            "location": "KUKKARAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.397533101,
+            "temperature": 6.6,
+            "ph": 28.5,
+            "location": "LAKE VEMBANAD AT PATHIRAMANAL (ALAPPUZHA)",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.195591056,
+            "temperature": 6.9,
+            "ph": 30,
+            "location": "PURI CITY)\"",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 3.349571655,
+            "temperature": 7,
+            "ph": 28.5,
+            "location": "TATIPUDI RESERVOIR",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 5.452362325,
+            "temperature": 7.3,
+            "ph": 24,
+            "location": "NUGGIKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.41111744,
+            "temperature": 7.1,
+            "ph": 26,
+            "location": "\"NEHRU NAGAR TALAB, BHILAI, CHHATISGARH.\"",
+            "state": "Chhattisgarh"
+        },
+        {
+            "turbidity": 4.265547139,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "SINGAPURA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.201849441,
+            "temperature": 7.2,
+            "ph": 23.6,
+            "location": "MOTI TALAB AT BALAGHAT",
+            "state": "Madhya Pradesh"
+        },
+        {
+            "turbidity": 3.132253296,
+            "temperature": 7.4,
+            "ph": 24.5,
+            "location": "SANKALAPURAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.463097154,
+            "temperature": 7.1,
+            "ph": 28,
+            "location": "\"BANDAM CHERUVU, HANAMKONDA\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.798600948,
+            "temperature": 7,
+            "ph": 30,
+            "location": "UPPAL, MEDCHAL - MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.864931035,
+            "temperature": 6.8,
+            "ph": 21.5,
+            "location": "\"GANDIGUDEM TANK , MEDAK DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.204699129,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "ALUR KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.619420879,
+            "temperature": 6.8,
+            "ph": 21.5,
+            "location": "\"GANDIGUDEM TANK , MEDAK DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.623297793,
+            "temperature": 7.3,
+            "ph": 32,
+            "location": "\"PORUR LAKE AT THIRUVALLUR, TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 4.361486286,
+            "temperature": 6.3,
+            "ph": 23,
+            "location": "\"ASHTHAMUDI LAKE AT QUILON, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.570290456,
+            "temperature": 6.8,
+            "ph": 25.5,
+            "location": "\"SANAVALLI DAM, MUNGOD\"",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.688298056,
+            "temperature": 7.2,
+            "ph": 24.5,
+            "location": "LAMJAO PUKHURI AT ACHOUBA",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 3.901096866,
+            "temperature": 6.9,
+            "ph": 26,
+            "location": "SITE)\"",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 2.728617352,
+            "temperature": 7.3,
+            "ph": 30,
+            "location": "\"RAJAPUKHURI AT GAURIPUR, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.328026357,
+            "temperature": 7.2,
+            "ph": 27,
+            "location": "\"PRAGATHINAGAR CHERUVU, KUKATPALLY, RANGA REDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.933467949,
+            "temperature": 7.3,
+            "ph": 24.5,
+            "location": "\"HIMAYAT SAGAR LAKE , R.R.DIST.\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.682780338,
+            "temperature": 7.2,
+            "ph": 28,
+            "location": "PEDDA CHERUVU",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.666916974,
+            "temperature": 7,
+            "ph": 28,
+            "location": "\"CHINNA BANDAM, SURARAM, QUTUBULLAPUR, MEDCHAL \u0096 MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.565542154,
+            "temperature": 7,
+            "ph": 24.5,
+            "location": "\"KALYANSAGAR AT MATARBARI, SOUTH TRIPURA\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.035670597,
+            "temperature": 7.2,
+            "ph": 27,
+            "location": "\"CHAND DUBI BEEL, CHAND DUBI, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.678957092,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "MANCHANABALE DAM",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.599235865,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "DODDANAKUNDI TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.616641008,
+            "temperature": 6.7,
+            "ph": 25,
+            "location": "\"HORDAI PUKHURI, CHARAIDEW, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.352764606,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "MANCHANABALE DAM",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.346153563,
+            "temperature": 7,
+            "ph": 30,
+            "location": "\"DALONI BEEL NEAR JOGIGHOPA, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.575010576,
+            "temperature": 7,
+            "ph": 25.05,
+            "location": "SOMPURA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.973576406,
+            "temperature": 6.5,
+            "ph": 27,
+            "location": "\"POOKOTE, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 4.081701398,
+            "temperature": 7.3,
+            "ph": 25,
+            "location": "\"OLPAD, VILLAGE POND:OLPAD, SURAT\"",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 3.690929417,
+            "temperature": 6.7,
+            "ph": 25.5,
+            "location": "COOCHBEHAR\"",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 3.736379595,
+            "temperature": 7,
+            "ph": 23.5,
+            "location": "RIVER AT SOMARAJAN, DHEMA JI\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 2.483643397,
+            "temperature": 7.6,
+            "ph": 27,
+            "location": "\"RAMAPPA LAKE, WARANGAL\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.512068205,
+            "temperature": 6.9,
+            "ph": 23.5,
+            "location": "KATAL DIGHI POND",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.914511885,
+            "temperature": 7.2,
+            "ph": 29.5,
+            "location": "WARANGAL\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.645785495,
+            "temperature": 6.9,
+            "ph": 23.75,
+            "location": "\"BRAMAKUNDA POND, WEST TRIPURA\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.1269559,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "CHINNAPANHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.73313957,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "PUTTENAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.377502097,
+            "temperature": 7.1,
+            "ph": 25.5,
+            "location": "YERRAKALUVA RESERVOIR",
+            "state": "Andhra Pradesh"
+        },
+        {
+            "turbidity": 2.277358632,
+            "temperature": 7,
+            "ph": 26.2,
+            "location": "SOHNA LAKE",
+            "state": "Haryana"
+        },
+        {
+            "turbidity": 6.35743852,
+            "temperature": 7.2,
+            "ph": 23,
+            "location": "\"BOR BEEL AT JAKAI., ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.141341849,
+            "temperature": 7.4,
+            "ph": 22.5,
+            "location": "KARANJIKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.853388072,
+            "temperature": 7,
+            "ph": 25,
+            "location": "\"GURUNATH CHERUVU, MIYAPUR, SERILINGAMPALLY, RR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 2.674040012,
+            "temperature": 7.2,
+            "ph": 27.5,
+            "location": "\"MIRALAM LAKE NEAR ZOO PARK, RANGAREDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.056104024,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "DHOREKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.164944785,
+            "temperature": 6.6,
+            "ph": 25,
+            "location": "ANEKAL DODDAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.914276095,
+            "temperature": 6.4,
+            "ph": 29,
+            "location": "RAIA LAKE",
+            "state": "Goa"
+        },
+        {
+            "turbidity": 6.032994877,
+            "temperature": 6.9,
+            "ph": 24,
+            "location": "POND AT MAIBAM LOKPACHING",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 3.654354962,
+            "temperature": 6.4,
+            "ph": 28,
+            "location": "ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 5.21830711,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "\"GOVERDHAN SAGAR, UDAIPUR\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 4.151865853,
+            "temperature": 8.3,
+            "ph": 22,
+            "location": "NO. 2, RAJSAMAND, RAJASTHAN\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 4.709402885,
+            "temperature": 7.5,
+            "ph": 27.5,
+            "location": "MAVENAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.488675274,
+            "temperature": 7.3,
+            "ph": 26.5,
+            "location": "\"MACHHU-II DAM, RAFLESHWAR, MORBI, RAJKOT\"",
+            "state": "Gujarat"
+        },
+        {
+            "turbidity": 4.963535103,
+            "temperature": 7.3,
+            "ph": 32,
+            "location": "\"PORUR LAKE AT THIRUVALLUR, TAMILNADU\"",
+            "state": "Tamil Nadu"
+        },
+        {
+            "turbidity": 3.979296867,
+            "temperature": 6.6,
+            "ph": 24.5,
+            "location": "WHITEFIELD KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.380084227,
+            "temperature": 7.2,
+            "ph": 15.5,
+            "location": "INTAKE POINT)\"",
+            "state": "Uttarakhand"
+        },
+        {
+            "turbidity": 5.002360533,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "CHELEKERE LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.290105906,
+            "temperature": 7,
+            "ph": 27,
+            "location": "YENNEHOLE LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 1.680554025,
+            "temperature": 7.4,
+            "ph": 26.5,
+            "location": "\"PREMAJIPET TANK, KATTEDAN, RANGAREDDY\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.133838702,
+            "temperature": 6.1,
+            "ph": 29.5,
+            "location": "RUMDER LAKE",
+            "state": "Goa"
+        },
+        {
+            "turbidity": 5.67199885,
+            "temperature": 7.6,
+            "ph": 29.5,
+            "location": "INDRADYUMNA TANK ( RILIGIOUS POND OF PURI CITY)",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 2.747027112,
+            "temperature": 6.5,
+            "ph": 28.5,
+            "location": "\"KODUNGALLOOR, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 4.523106008,
+            "temperature": 6.3,
+            "ph": 25,
+            "location": "BENGALURU NORTH\"",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.410673878,
+            "temperature": 7.2,
+            "ph": 24,
+            "location": "\"MOHINI CHERUVU, AMBERPET, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.444442492,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "NARASIPURA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.65213447,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "CHIKKABANWARA, BENGALURU NORTH\"",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.176218743,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "BELLANDUR LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.038118946,
+            "temperature": 7.1,
+            "ph": 26.5,
+            "location": "\"BATHAR KUNTA, SHAIKPET, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.884891044,
+            "temperature": 6.6,
+            "ph": 22,
+            "location": "SERILINGAMPALLY, RR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.759326201,
+            "temperature": 6.4,
+            "ph": 26.5,
+            "location": "\"ORUVATHILKOTTA LAKE, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 3.995857049,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "YEDIYUR LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.810537179,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "BANDEMATTA TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.986882335,
+            "temperature": 7.2,
+            "ph": 27,
+            "location": "\"CHAND DUBI BEEL, CHAND DUBI, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 3.422470521,
+            "temperature": 6.2,
+            "ph": 25,
+            "location": "RAMAMMANA KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.99189599,
+            "temperature": 6.9,
+            "ph": 11.5,
+            "location": "SINCHAL LAKE FOR DARJEELING",
+            "state": "West Bengal"
+        },
+        {
+            "turbidity": 4.217743745,
+            "temperature": 6.4,
+            "ph": 25,
+            "location": "HEBBAL LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.026622094,
+            "temperature": 7.4,
+            "ph": 24,
+            "location": "GAVENAHALLIKERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.853767349,
+            "temperature": 6.9,
+            "ph": 30,
+            "location": "\"NAGOLE CHERUVU, UPPAL (V)\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.111691345,
+            "temperature": 7.7,
+            "ph": 24.5,
+            "location": "KOKKANAGHATTADODDAKERE TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.749818066,
+            "temperature": 7.3,
+            "ph": 25,
+            "location": "\"GALA BEEL AT DERGAON, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.143224936,
+            "temperature": 6.5,
+            "ph": 28.5,
+            "location": "\"KODUNGALLOOR, KERALA\"",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 4.903869628,
+            "temperature": 2,
+            "ph": 30,
+            "location": "\"PUDUMPUKHURI, DIMAPUR\"",
+            "state": "Nagaland"
+        },
+        {
+            "turbidity": 2.804923583,
+            "temperature": 7.3,
+            "ph": 24,
+            "location": "KANCHANAHALLI KOPPALU KERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 4.340148944,
+            "temperature": 6.9,
+            "ph": 31,
+            "location": "\"UMDA SAGAR LAKE, SHAMSHABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.36085117,
+            "temperature": 6,
+            "ph": 25,
+            "location": "NORTH\"",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.661529274,
+            "temperature": 6.9,
+            "ph": 23.35,
+            "location": "LOKTAK LAKE AT THANA",
+            "state": "Manipur"
+        },
+        {
+            "turbidity": 4.687986155,
+            "temperature": 7.6,
+            "ph": 24,
+            "location": "\"NELA TALAB, SECTOR-14 HIRAN MARG, UDAIPUR\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 4.628770537,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "NELAMANGALA LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.172375491,
+            "temperature": 7,
+            "ph": 25.5,
+            "location": "DISTRICT\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.930290663,
+            "temperature": 7,
+            "ph": 23.25,
+            "location": "\"DHAMBUR LAKE, DHALAI\"",
+            "state": "Tripura"
+        },
+        {
+            "turbidity": 3.580523461,
+            "temperature": 7.2,
+            "ph": 30.5,
+            "location": "NEKNAMPUR LAKE",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.032150342,
+            "temperature": 7,
+            "ph": 26,
+            "location": "HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.094746286,
+            "temperature": 6.5,
+            "ph": 26.5,
+            "location": "ANSHUPA AT SARANDAGARH",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 3.204795726,
+            "temperature": 6.8,
+            "ph": 24.5,
+            "location": "NARINJA LAKE",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.325638986,
+            "temperature": 6.7,
+            "ph": 29,
+            "location": "MANDAL, SANGAREDDY DIST\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 4.248075369,
+            "temperature": 7,
+            "ph": 25,
+            "location": "PARASHALI BEEL AT DEMORIA",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 5.425794714,
+            "temperature": 7.2,
+            "ph": 26,
+            "location": "\"DIMNA LAKE, DIMNA\"",
+            "state": "Jharkhand"
+        },
+        {
+            "turbidity": 3.331583735,
+            "temperature": 7,
+            "ph": 25,
+            "location": "\"GURUNATH CHERUVU, MIYAPUR, SERILINGAMPALLY, RR\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 5.088859989,
+            "temperature": 7.7,
+            "ph": 25,
+            "location": "RAJASTHAN\"",
+            "state": "Rajasthan"
+        },
+        {
+            "turbidity": 3.258041647,
+            "temperature": 6.4,
+            "ph": 27,
+            "location": "RSVR AT EDAMALAYAR",
+            "state": "Kerala"
+        },
+        {
+            "turbidity": 5.452362325,
+            "temperature": 7.1,
+            "ph": 25.5,
+            "location": "\"SALKAM CHERUVU, BANDLAGUDA, HYDERABAD\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.951304463,
+            "temperature": 6.7,
+            "ph": 25,
+            "location": "UTTARAHALLI DORAIKERE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 2.519891581,
+            "temperature": 7,
+            "ph": 23.5,
+            "location": "\"BISHNU PUSKAR PUKHURI OF HAYAGRIB MADHAB TEMPLE, HAJO, ASSAM\"",
+            "state": "Assam"
+        },
+        {
+            "turbidity": 4.081328787,
+            "temperature": 7.1,
+            "ph": 27,
+            "location": "MALKAGIRI\"",
+            "state": "Telangana"
+        },
+        {
+            "turbidity": 3.673088094,
+            "temperature": 7.2,
+            "ph": 20,
+            "location": "\"LAXMI POND, JHANSI\"",
+            "state": "Uttar Pradesh"
+        },
+        {
+            "turbidity": 4.158248535,
+            "temperature": 6.5,
+            "ph": 25,
+            "location": "DODDANAKUNDI TANK",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 3.292249267,
+            "temperature": 7.1,
+            "ph": 20.5,
+            "location": "JAGANNATH SAGAR POND OF JEYPORE",
+            "state": "Odisha"
+        },
+        {
+            "turbidity": 4.085054788,
+            "temperature": 6.5,
+            "ph": 23,
+            "location": "DEVARABEESANAHALLI LAKE",
+            "state": "Karnataka"
+        },
+        {
+            "turbidity": 5.149542443,
+            "temperature": 6.5,
+            "ph": 27,
+            "location": "ANSHUPA AT SUBARANAPUR",
+            "state": "Odisha"
+        }
+    ]
+}
