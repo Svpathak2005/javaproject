@@ -5,36 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water Quality Data</title>
     <style>
-        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #a1c4fd, #c2e9fb); /* Water color gradient */
+            background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
             color: #333;
             overflow-x: hidden;
             background-size: cover;
             background-attachment: fixed;
         }
-
         h1, h2 {
             text-align: center;
-            color: #0069a1; /* Deep water blue */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for text */
+            color: #0069a1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
-
         h1 {
             font-size: 3rem;
             margin-top: 30px;
             text-transform: uppercase;
         }
-
         h2 {
             font-size: 2rem;
             margin: 20px 0;
         }
-
-        /* Styling Tables */
         table {
             width: 90%;
             margin: 30px auto;
@@ -43,57 +37,22 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-
         table, th, td {
             border: 1px solid #ddd;
         }
-
         th, td {
             padding: 12px 18px;
             text-align: center;
             font-size: 1.1rem;
         }
-
         th {
             background-color: #0099cc;
             color: white;
             text-transform: uppercase;
         }
-
         td {
             background-color: #e7f6fc;
         }
-
-        /* Water Effect for Tables */
-        table {
-            background: rgba(255, 255, 255, 0.8);
-            position: relative;
-            overflow: hidden;
-        }
-
-        table::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://www.transparenttextures.com/patterns/diag-crosshatch.png');
-            background-size: cover;
-            opacity: 0.2;
-            animation: waveAnimation 5s infinite linear;
-        }
-
-        @keyframes waveAnimation {
-            0% {
-                transform: translateX(0);
-            }
-            100% {
-                transform: translateX(100%);
-            }
-        }
-
-        /* Select and Filter Styling */
         select {
             padding: 8px 12px;
             margin: 10px;
@@ -105,35 +64,26 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease;
         }
-
         select:hover {
             background-color: #e7f6fc;
         }
-
         label {
             font-size: 1.1rem;
             color: #0069a1;
             margin-right: 10px;
         }
-
-        /* Styling for Containers */
         .average-table, .location-table {
             margin: 40px 0;
         }
-
-        /* Card-like effect for sections */
         .table-container {
             background: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             padding: 20px;
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
         }
-
-        /* Adding subtle animation to headings and sections */
         .average-table, .location-table {
             animation: fadeIn 1.5s ease-in-out;
         }
-
         @keyframes fadeIn {
             0% {
                 opacity: 0;
@@ -142,37 +92,28 @@
                 opacity: 1;
             }
         }
-
-        /* Adding responsive design */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5rem;
             }
-
             h2 {
                 font-size: 1.8rem;
             }
-
             table {
                 width: 95%;
             }
-
             select {
                 width: 100%;
             }
         }
-
         @media (max-width: 480px) {
             h1 {
                 font-size: 2rem;
             }
-
             h2 {
                 font-size: 1.5rem;
             }
         }
-
-        /* Chart container */
         .chart-container {
             width: 80%;
             margin: 0 auto;
@@ -182,27 +123,20 @@
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-
         canvas {
             width: 100%;
             height: 400px;
         }
-
     </style>
-    <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-
     <h1>Water Quality Data</h1>
-
     <div class="average-table table-container">
         <h2>Average Water Quality by State</h2>
-        <!-- Filter for Average Table -->
         <label for="stateFilter">Filter by State:</label>
         <select id="stateFilter" onchange="filterAverages()">
             <option value="">All States</option>
-            <!-- States will be dynamically added here -->
         </select>
         <table id="averageTable">
             <thead>
@@ -214,28 +148,22 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Data will be inserted here by JavaScript -->
             </tbody>
         </table>
     </div>
-
     <div class="chart-container">
         <h2>Graphical Representation of Average Water Quality</h2>
         <canvas id="waterQualityChart"></canvas>
     </div>
-
     <div class="location-table table-container">
         <h2>Water Quality by Location</h2>
-        <!-- Filter for Location Table -->
         <label for="locationFilterState">Filter by State:</label>
         <select id="locationFilterState" onchange="filterLocations()">
             <option value="">All States</option>
-            <!-- States will be dynamically added here -->
         </select>
         <label for="locationFilter">Filter by Location:</label>
         <select id="locationFilter" onchange="filterLocations()">
             <option value="">All Locations</option>
-            <!-- Locations will be dynamically added here -->
         </select>
         <table id="locationTable">
             <thead>
@@ -245,19 +173,16 @@
                     <th>Turbidity</th>
                     <th>Temperature</th>
                     <th>pH</th>
+                    <th>Water Quality</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Data will be inserted here by JavaScript -->
             </tbody>
         </table>
     </div>
-
     <script>
         let averagesData = {};
         let locationsData = [];
-
-        // Fetch JSON data and display it
         fetch('averages.json')
             .then(response => response.json())
             .then(data => {
@@ -266,31 +191,24 @@
                 displayAverages(averagesData);
                 displayLocations(locationsData);
                 populateFilters();
-                renderChart(averagesData); // Render the chart
+                renderChart(averagesData);
             })
             .catch(error => console.error('Error loading JSON:', error));
-
-        // Display average data in table
         function displayAverages(averages) {
             const averageTable = document.getElementById('averageTable').getElementsByTagName('tbody')[0];
-            averageTable.innerHTML = '';  // Clear previous data
-
+            averageTable.innerHTML = '';
             for (const state in averages) {
                 const row = averageTable.insertRow();
                 const avgData = averages[state];
-
                 row.insertCell(0).textContent = state;
                 row.insertCell(1).textContent = avgData.averageTurbidity;
                 row.insertCell(2).textContent = avgData.averageTemperature;
                 row.insertCell(3).textContent = avgData.averagePh;
             }
         }
-
-        // Display location data in table
         function displayLocations(locations) {
             const locationTable = document.getElementById('locationTable').getElementsByTagName('tbody')[0];
-            locationTable.innerHTML = '';  // Clear previous data
-
+            locationTable.innerHTML = '';
             locations.forEach(locations => {
                 const row = locationTable.insertRow();
                 row.insertCell(0).textContent = locations.location;
@@ -298,148 +216,95 @@
                 row.insertCell(2).textContent = locations.turbidity;
                 row.insertCell(3).textContent = locations.temperature;
                 row.insertCell(4).textContent = locations.ph;
+                row.insertCell(5).textContent = locations.waterQuality;
             });
         }
-
         function populateFilters() {
-            const states = [...new Set(locationsData.map(loc => loc.state))];
-            
-            // Get filter elements
+            const states = [...new Set([...locationsData.map(locations => locations.state), ...Object.keys(averagesData)])];
             const stateFilter = document.getElementById('stateFilter');
-            const locationFilterState = document.getElementById('locationFilterState');
-
-            // Populate state filter for average table
+            const locationStateFilter = document.getElementById('locationFilterState');
+            stateFilter.innerHTML = '<option value="">All States</option>';
+            locationStateFilter.innerHTML = '<option value="">All States</option>';
             states.forEach(state => {
                 const option = document.createElement('option');
                 option.value = state;
                 option.textContent = state;
                 stateFilter.appendChild(option);
+                const locationOption = document.createElement('option');
+                locationOption.value = state;
+                locationOption.textContent = state;
+                locationStateFilter.appendChild(locationOption);
             });
-
-            // Populate state filter for location filter dropdown
-            states.forEach(state => {
-                const option = document.createElement('option');
-                option.value = state;
-                option.textContent = state;
-                locationFilterState.appendChild(option);
-            });
-
-            // Initialize location filter based on the first state (if any)
-            if (states.length > 0) {
-                populateLocationFilter(states[0]);
-            }
+            filterLocations();
         }
-
-        // Populate the location filter based on the selected state
-        function populateLocationFilter(state) {
-            const locationFilter = document.getElementById('locationFilter');
-            const locations = locationsData.filter(loc => loc.state === state);
-            const uniqueLocations = [...new Set(locations.map(loc => loc.location))];
-
-            locationFilter.innerHTML = '<option value="">All Locations</option>'; // Reset locations filter
-
-            uniqueLocations.forEach(location => {
-                const option = document.createElement('option');
-                option.value = location;
-                option.textContent = location;
-                locationFilter.appendChild(option);
-            });
-
-            filterLocations();  // Filter locations when the state changes
-        }
-
-        // Filter average data by state
         function filterAverages() {
             const selectedState = document.getElementById('stateFilter').value;
-            const filteredAverages = selectedState ? { [selectedState]: averagesData[selectedState] } : averagesData;
-            displayAverages(filteredAverages);
+            const filteredData = {};
+            if (selectedState) {
+                filteredData[selectedState] = averagesData[selectedState];
+            } else {
+                filteredData = averagesData;
+            }
+            displayAverages(filteredData);
+            renderChart(filteredData);
         }
-
-        // Filter locations data by state and location
         function filterLocations() {
             const selectedState = document.getElementById('locationFilterState').value;
             const selectedLocation = document.getElementById('locationFilter').value;
-
-            const filteredLocations = locationsData.filter(loc => {
-                const stateMatch = !selectedState || loc.state === selectedState;
-                const locationMatch = !selectedLocation || loc.location === selectedLocation;
-                return stateMatch && locationMatch;
+            const filteredData = locationsData.filter(locations => {
+                return (
+                    (selectedState === '' || locations.state === selectedState) &&
+                    (selectedLocation === '' || locations.location === selectedLocation)
+                );
             });
-
-            displayLocations(filteredLocations);
+            displayLocations(filteredData);
         }
-
-        // Initial population of filters when page loads
-        populateFilters();
-                function renderChart(data) {
+        function renderChart(averages) {
+            const states = Object.keys(averages);
+            const turbidities = states.map(state => averages[state].averageTurbidity);
+            const temperatures = states.map(state => averages[state].averageTemperature);
+            const phLevels = states.map(state => averages[state].averagePh);
             const ctx = document.getElementById('waterQualityChart').getContext('2d');
-            const states = Object.keys(data);
-            const avgTurbidity = states.map(state => data[state].averageTurbidity);
-            const avgTemperature = states.map(state => data[state].averageTemperature);
-            const avgPh = states.map(state => data[state].averagePh);
-
-            new Chart(ctx, {
-                type: 'line', // or 'bar' if you prefer bar charts
+            if (window.chart) {
+                window.chart.destroy();
+            }
+            window.chart = new Chart(ctx, {
+                type: 'bar',
                 data: {
-                    labels: states, // States as labels
+                    labels: states,
                     datasets: [
                         {
                             label: 'Average Turbidity',
-                            data: avgTurbidity,
-                            borderColor: '#0099cc',
-                            backgroundColor: 'rgba(0, 153, 204, 0.2)',
-                            fill: true,
-                            tension: 0.4
+                            data: turbidities,
+                            backgroundColor: 'rgba(54, 162, 235, 0.6)',
                         },
                         {
                             label: 'Average Temperature',
-                            data: avgTemperature,
-                            borderColor: '#ff6f61',
-                            backgroundColor: 'rgba(255, 111, 97, 0.2)',
-                            fill: true,
-                            tension: 0.4
+                            data: temperatures,
+                            backgroundColor: 'rgba(255, 99, 132, 0.6)',
                         },
                         {
                             label: 'Average pH',
-                            data: avgPh,
-                            borderColor: '#4caf50',
-                            backgroundColor: 'rgba(76, 175, 80, 0.2)',
-                            fill: true,
-                            tension: 0.4
+                            data: phLevels,
+                            backgroundColor: 'rgba(75, 192, 192, 0.6)',
                         }
                     ]
                 },
                 options: {
                     responsive: true,
                     plugins: {
-                        title: {
-                            display: true,
-                            text: 'Average Water Quality by State'
+                        legend: {
+                            position: 'top',
                         },
-                        tooltip: {
-                            mode: 'index',
-                            intersect: false,
-                        }
                     },
                     scales: {
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'States'
-                            }
-                        },
                         y: {
-                            title: {
-                                display: true,
-                                text: 'Values'
-                            },
                             beginAtZero: true
                         }
                     }
                 }
             });
         }
-
     </script>
 </body>
 </html>
